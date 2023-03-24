@@ -1,0 +1,19 @@
+<div class="card d-flex flex-column">
+  <div class="title px-10">
+        <h3>Edit Post</h3>
+    <button class="btn btn-danger my-1" id="btn-delete-post">Delete</button>
+  </div>
+  <form class="edit-form p-5">
+    <div class="mb-3">
+      <label for="inputPostTitle" class="form-label">Title</label>
+      <textarea class="form-control" maxlength="100" id="inputPostTitle"></textarea>
+    </div>
+    <div class="mb-3">
+      <label for="inputPostContent" class="form-label">Content</label>
+      <textarea class="form-control" maxlength="1000" id="inputPostContent" rows="7"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary my-1" id="btn-update-post">Update</button>
+  </form>
+</div>
+
+<script src="/js/editPost.js"></script>
